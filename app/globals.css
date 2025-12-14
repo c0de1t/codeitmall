@@ -1,0 +1,25 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Default dark theme */
+  background-color: #121212;
+  color: #f9f9f9;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Light theme */
+body.light {
+  background-color: #ededed;
+  color: #121212;
+}
